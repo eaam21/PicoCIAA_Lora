@@ -1,0 +1,17 @@
+(module SMA_EDGE:SMA_EDGE (layer F.Cu) (tedit 584C4343)
+  (fp_text reference P4 (at -13.5 -1.8) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value GSG-RF-CONN (at 0 2.54) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (pad 0 connect rect (at -8.8773 -1.89484) (size 4.572 1.524) (layers *.Cu F.Mask))
+  (pad 1 connect trapezoid (at -6.858 1.27) (size 0.50038 1.39954) (rect_delta 0.59944 0 ) (layers F.Cu F.Mask))
+  (pad 2 connect rect (at -8.8773 4.42976) (size 4.572 1.524) (layers *.Cu F.Mask))
+  (pad 1 connect rect (at -9.144 1.27) (size 4.07162 1.99898) (layers F.Cu F.Mask))
+  (model SMAEdge.wrl
+    (at (xyz -0.205 -0.05 -0.12))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 270 0 180))
+  )
+)
