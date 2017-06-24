@@ -3,9 +3,9 @@
   (general
     (links 22)
     (no_connects 22)
-    (area 48.999999 99.949999 100.050001 130.050001)
+    (area 48.999999 98.5904 112.433143 131.7358)
     (thickness 1.6)
-    (drawings 15)
+    (drawings 18)
     (tracks 0)
     (zones 0)
     (modules 8)
@@ -391,13 +391,13 @@
       (net 14 /DIO2))
   )
 
-  (module footprints:SMA_EDGE (layer F.Cu) (tedit 594D996D) (tstamp 59453FE6)
+  (module footprints:SMA_EDGE (layer F.Cu) (tedit 594DABDD) (tstamp 59453FE6)
     (at 106.41 113.44)
     (path /592220FA)
     (fp_text reference U2 (at -13.5 -1.8) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value EDGE_SMA (at 2.59 3.56) (layer F.SilkS) hide
+    (fp_text value EDGE_SMA (at 0.09 1.56) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (pad 0 connect rect (at -8.8773 -1.89484) (size 4.572 1.524) (layers *.Cu F.Mask))
@@ -465,6 +465,9 @@
     )
   )
 
+  (gr_line (start 67.4 129.5) (end 73.4 129.5) (angle 90) (layer Edge.Cuts) (width 0.381))
+  (gr_line (start 73.4 129.5) (end 73.4 126) (angle 90) (layer Edge.Cuts) (width 0.381))
+  (gr_line (start 73.4 126) (end 67.4 126) (angle 90) (layer Edge.Cuts) (width 0.381))
   (gr_arc (start 52.3 111.15) (end 53.05 111.15) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 100 130) (end 52.25 130) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 52.25 130) (end 52.25 128.65) (angle 90) (layer Edge.Cuts) (width 0.1))
