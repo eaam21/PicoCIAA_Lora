@@ -94,18 +94,18 @@ Sheet 1 1
 Title "PicoCIAA - Poncho Lora RFM95W 915MHz"
 Date "2017-06-10"
 Rev ""
-Comp "Author: Elías Alejandro Año Mendoza"
-Comment1 "CESE 4ta cohorte"
+Comp "Autor: Elías Alejandro Año Mendoza"
+Comment1 "Revisor: "
 Comment2 "Licencia: Ver en 'doc/LICENCIA.txt'"
-Comment3 ""
-Comment4 ""
+Comment3 "Asignatura: Diseño de Circuitos Impresos"
+Comment4 "CESE - FIUBA"
 $EndDescr
 $Comp
 L RFM92/95/96/97/98 U1
 U 1 1 59221B48
 P 5350 2950
 F 0 "U1" H 5400 2550 60  0000 C CNN
-F 1 "RFM92/95/96/97/98" H 5350 3500 60  0000 C CNN
+F 1 "RFM95" H 5350 3500 60  0000 C CNN
 F 2 "footprints:RFM95W" H 5550 3150 60  0001 C CNN
 F 3 "" H 5550 3150 60  0001 C CNN
 F 4 "HopeRF" H 5350 2950 60  0001 C CNN "Manf"
@@ -531,4 +531,17 @@ NoConn ~ 3550 4100
 NoConn ~ 3550 4200
 NoConn ~ 3550 4300
 NoConn ~ 3550 4400
+$Comp
+L GND #PWR?
+U 1 1 594DB5B8
+P 3050 4550
+F 0 "#PWR?" H 3050 4300 50  0001 C CNN
+F 1 "GND" H 3050 4400 50  0000 C CNN
+F 2 "" H 3050 4550 50  0000 C CNN
+F 3 "" H 3050 4550 50  0000 C CNN
+	1    3050 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4400 3050 4550
 $EndSCHEMATC
