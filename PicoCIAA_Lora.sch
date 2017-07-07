@@ -1,90 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:mechanical
-LIBS:memory
-LIBS:microchip_dspic33dsc
-LIBS:microchip
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:powerint
-LIBS:power
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:sim5320_KICAD_PART
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
 LIBS:PicoLora
+LIBS:SMA
 LIBS:PicoCIAA_Lora-cache
 EELAYER 25 0
 EELAYER END
@@ -222,7 +138,10 @@ F 0 "P6" H 3300 3600 50  0000 C CNN
 F 1 "IO1" V 3300 3050 50  0000 C CNN
 F 2 "footprints:Pin_Header_Straight_2x10_Pitch2.00mm" H 3300 1850 50  0001 C CNN
 F 3 "" H 3300 1850 50  0000 C CNN
-F 4 "Value" H 3300 3050 60  0001 C CNN "Fieldname"
+F 4 "Harwin Inc." H 3300 3050 60  0001 C CNN "Manf"
+F 5 "M22-7141042" H 3300 3050 60  0001 C CNN "Manf#"
+F 6 "952-1361-5-ND" H 3300 3050 60  0001 C CNN "Digikey#"
+F 7 "Value" H 3300 3050 60  0001 C CNN "Fieldname"
 	1    3300 3050
 	1    0    0    -1  
 $EndComp
@@ -429,7 +348,10 @@ F 0 "P3" H 8800 4050 50  0000 C CNN
 F 1 "PWR" V 8900 3900 50  0000 C CNN
 F 2 "footprints:Pin_Header_Straight_1x02_Pitch2.00mm" H 8800 3900 50  0001 C CNN
 F 3 "" H 8800 3900 50  0000 C CNN
-F 4 "Value" H 8800 3900 60  0001 C CNN "Fieldname"
+F 4 "Samtec Inc." H 8800 3900 60  0001 C CNN "Manf"
+F 5 "SQT-102-01-L-S" H 8800 3900 60  0001 C CNN "Manf#"
+F 6 "SAM1247-02-ND" H 8800 3900 60  0001 C CNN "Digikey#"
+F 7 "Value" H 8800 3900 60  0001 C CNN "Fieldname"
 	1    8800 3900
 	1    0    0    -1  
 $EndComp
@@ -467,6 +389,10 @@ F 0 "P8" H 3300 4500 50  0000 C CNN
 F 1 "IO3" V 3300 4200 50  0000 C CNN
 F 2 "footprints:Pin_Header_Straight_2x05_Pitch2.00mm" H 3300 3000 50  0001 C CNN
 F 3 "" H 3300 3000 50  0000 C CNN
+F 4 "Harwin Inc." H 3300 4200 60  0001 C CNN "Manf"
+F 5 "M22-7140542" H 3300 4200 60  0001 C CNN "Manf#"
+F 6 "952-1359-5-ND" H 3300 4200 60  0001 C CNN "Digikey#"
+F 7 "Value" H 3300 4200 60  0001 C CNN "Fieldname"
 	1    3300 4200
 	1    0    0    -1  
 $EndComp
