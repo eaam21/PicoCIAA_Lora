@@ -3,7 +3,7 @@
   (general
     (links 23)
     (no_connects 8)
-    (area 34.750002 98.6404 108.311905 138.9)
+    (area 34.750002 98.6404 149.314286 138.9)
     (thickness 1.6)
     (drawings 11)
     (tracks 90)
@@ -13,6 +13,16 @@
   )
 
   (page A4)
+  (title_block
+    (title "PicoCIAA - Poncho Lora RFM95W 915MHz")
+    (date 2017-07-27)
+    (company "Autor: Elías Alejandro Año Mendoza")
+    (comment 1 "Revisor: Juan Díaz")
+    (comment 2 "Licencia: Ver en 'doc/LICENCIA.txt'")
+    (comment 3 "Asignatura: Diseño de Circuitos Impresos")
+    (comment 4 "CESE - FIUBA")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
